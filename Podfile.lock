@@ -1,0 +1,16 @@
+PODS:
+  - Brotli (1.1.0)
+
+DEPENDENCIES:
+  - Brotli (from `./Brotli.podspec`)
+
+EXTERNAL SOURCES:
+  Brotli:
+    :podspec: "./Brotli.podspec"
+
+SPEC CHECKSUMS:
+  Brotli: d74799939d93d90cd7c4021f4f53a8d1d4bd0538
+
+PODFILE CHECKSUM: 8ba379a1ebec02151f8c5eeaa67c69e9aff9527e
+
+COCOAPODS: 1.15.2
