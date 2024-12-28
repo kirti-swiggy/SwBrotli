@@ -1,6 +1,6 @@
 //
 //  Brotli.swift
-//  BrotiiSample
+//  BrotliSample
 //
 //  Created by Kirti Kumar Verma on 28/12/24.
 //
