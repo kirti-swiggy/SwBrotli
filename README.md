@@ -2,9 +2,10 @@
 
 [![Swift](https://img.shields.io/badge/Swift-5.0+-orange.svg)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%20|%20macOS-blue.svg)](https://www.apple.com)
+[![CocoaPods](https://img.shields.io/cocoapods/v/SwBrotli.svg)](https://cocoapods.org/pods/SwBrotli)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/kirti-swiggy/SwBrotli/blob/main/LICENSE)
 
-SwBrotli is a cocoapods distribution that provides a lightweight wrapper around Google's Brotli compression algorithm, making it easy to use Brotli compression and decompression in Swift projects.
+SwBrotli is a cocoapods distribution that provides a lightweight wrapper around Google's Brotli compression algorithm, making it easy to use Brotli compression and decompression in iOS projects.
 
 Made with ❤️ and Swift
 
@@ -23,24 +24,18 @@ Made with ❤️ and Swift
 
 ## Installation
 
-### Swift Package Manager
+### CocoaPods
 
-Add SwBrotli as a dependency to your `Package.swift` file:
+SwBrotli is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
-```swift
-dependencies: [
-    .package(url: "https://github.com/kirti-swiggy/SwBrotli.git", from: "1.0.0")
-]
+```ruby
+pod 'SwBrotli'
 ```
 
-Then add SwBrotli to your target dependencies:
+Then run:
 
-```swift
-targets: [
-    .target(
-        name: "YourTarget",
-        dependencies: ["SwBrotli"]),
-]
+```bash
+pod install
 ```
 
 ## Usage
@@ -134,4 +129,4 @@ SwBrotli is available under the MIT license. See the [LICENSE](LICENSE) file for
 - [Google's Brotli Compression Format](https://github.com/google/brotli)
 
 ---
-*Fun Fact: This README is generated entirely by Claude*
+*This README is generated entirely by Claude*
